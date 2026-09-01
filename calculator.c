@@ -19,6 +19,9 @@ int subtract(int a, int b) {
  * Add the multiply function below
  * Multiplies a and b and returns the result
  */
+int multiply(int a, int b) {
+    return a * b;
+}
 
 int main(void) {
     print_banner();
