@@ -2,7 +2,7 @@
 
 void print_banner(void) {
     printf("Nebula Labs Workshop\n");
-    printf("C Calculator - [Your Name Here]\n");
+    printf("C Calculator - Bryant\n");
 }
 
 /* Adds a and b and returns the result */
@@ -19,9 +19,13 @@ int subtract(int a, int b) {
  * Add the multiply function below
  * Multiplies a and b and returns the result
  */
+int multiply(int a, int b)
+{
+	return a * b;
+}
 
 int main(void) {
-    print_banner();
+    print_banner("Nebula Labs Git/Github Workshop\n");
 
     int num1 = 12;
     int num2 = 4;
