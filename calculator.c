@@ -25,7 +25,7 @@ int multiply(int a, int b)
 }
 
 int main(void) {
-    print_banner("Nebula Labs Github Workshop\n");
+    print_banner("Nebula Labs Git/Github Workshop\n");
 
     int num1 = 12;
     int num2 = 4;
